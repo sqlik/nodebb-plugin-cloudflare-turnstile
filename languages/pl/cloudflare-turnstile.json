@@ -1,0 +1,47 @@
+{
+	"title": "Cloudflare Turnstile",
+	"subtitle": "Weryfikacja CAPTCHA na formularzu rejestracji i logowania.",
+
+	"section.activation": "Aktywacja",
+	"section.keys": "Klucze Cloudflare",
+	"section.behaviour": "Gdzie weryfikować",
+	"section.appearance": "Wygląd widgetu",
+
+	"field.enabled": "Włącz Cloudflare Turnstile",
+	"field.enabled.help": "Główny przełącznik. Wyłączony — wtyczka nic nie robi i widget nigdzie się nie pojawia.",
+
+	"keys.notice": "Pobierz Site Key i Secret Key z <strong>Cloudflare Dashboard → Turnstile → Add site</strong>. Hostname zarejestrowany w widgecie powinien zgadzać się z domeną forum.",
+	"field.siteKey": "Site Key",
+	"field.siteKey.help": "Klucz publiczny, osadzany w stronie.",
+	"field.secretKey": "Secret Key",
+	"field.secretKey.help": "Klucz po stronie serwera używany do weryfikacji tokenu. Przechowywany w bazie ustawień NodeBB.",
+
+	"field.verifyOnRegister": "Weryfikuj na formularzu rejestracji",
+	"field.verifyOnLogin": "Weryfikuj na formularzu logowania",
+	"field.verifyOnLogin.help": "Dodaje widget na /login. Przydatne gdy rejestracja jest zamknięta a sam formularz logowania jest atakowany (credential stuffing).",
+
+	"field.theme": "Motyw",
+	"theme.auto": "Auto (zgodnie z systemem użytkownika)",
+	"theme.light": "Jasny",
+	"theme.dark": "Ciemny",
+	"field.size": "Rozmiar",
+	"size.normal": "Normalny",
+	"size.flexible": "Elastyczny (pełna szerokość)",
+	"size.compact": "Kompaktowy",
+	"field.appearance": "Widoczność",
+	"appearance.always": "Zawsze widoczny",
+	"appearance.execute": "Widoczny tylko podczas weryfikacji",
+	"appearance.interaction-only": "Widoczny tylko gdy wymagana interakcja",
+	"field.appearance.help": "<strong>execute</strong> ukrywa widget chyba że trwa aktywna weryfikacja. <strong>interaction-only</strong> ukrywa go chyba że Cloudflare wymaga interakcji od użytkownika.",
+
+	"save": "Zapisz",
+	"saved.title": "Zapisano",
+	"saved.message": "Ustawienia Cloudflare Turnstile przeładowane.",
+
+	"status.label": "Status",
+	"status.configured": "Aktywny",
+	"status.not-configured": "Nieskonfigurowany",
+
+	"error.not-completed": "Ukończ CAPTCHA przed wysłaniem formularza.",
+	"error.failed": "Weryfikacja CAPTCHA nie powiodła się. Spróbuj ponownie."
+}

@@ -1,0 +1,47 @@
+{
+	"title": "Cloudflare Turnstile",
+	"subtitle": "CAPTCHA verification for registration and login forms.",
+
+	"section.activation": "Activation",
+	"section.keys": "Cloudflare keys",
+	"section.behaviour": "Where to verify",
+	"section.appearance": "Widget appearance",
+
+	"field.enabled": "Enable Cloudflare Turnstile",
+	"field.enabled.help": "Master switch. When off, the plugin is a no-op and no widget appears anywhere.",
+
+	"keys.notice": "Get your Site Key and Secret Key from <strong>Cloudflare Dashboard → Turnstile → Add site</strong>. The hostname registered with the widget should match the forum's domain.",
+	"field.siteKey": "Site Key",
+	"field.siteKey.help": "Public key, embedded in the page.",
+	"field.secretKey": "Secret Key",
+	"field.secretKey.help": "Server-side key used to verify tokens. Stored in NodeBB settings DB.",
+
+	"field.verifyOnRegister": "Verify on registration form",
+	"field.verifyOnLogin": "Verify on login form",
+	"field.verifyOnLogin.help": "Adds the widget to /login. Useful when registration is closed and the login form itself is being abused (credential stuffing).",
+
+	"field.theme": "Theme",
+	"theme.auto": "Auto (follow user's system theme)",
+	"theme.light": "Light",
+	"theme.dark": "Dark",
+	"field.size": "Size",
+	"size.normal": "Normal",
+	"size.flexible": "Flexible (full width)",
+	"size.compact": "Compact",
+	"field.appearance": "Appearance",
+	"appearance.always": "Always visible",
+	"appearance.execute": "Visible only when verifying",
+	"appearance.interaction-only": "Visible only when interaction is required",
+	"field.appearance.help": "<strong>execute</strong> hides the widget unless an active challenge is running. <strong>interaction-only</strong> hides it unless Cloudflare flags the visitor for a challenge.",
+
+	"save": "Save",
+	"saved.title": "Saved",
+	"saved.message": "Cloudflare Turnstile settings reloaded.",
+
+	"status.label": "Status",
+	"status.configured": "Active",
+	"status.not-configured": "Not configured",
+
+	"error.not-completed": "Please complete the CAPTCHA before submitting.",
+	"error.failed": "CAPTCHA verification failed. Please try again."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "nodebb-plugin-cloudflare-turnstile",
+  "name": "Cloudflare Turnstile",
+  "description": "Cloudflare Turnstile CAPTCHA for registration and login forms.",
+  "url": "https://github.com/sqlik/nodebb-plugin-cloudflare-turnstile",
+  "library": "./library.js",
+  "hooks": [
+    { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:admin.header.build", "method": "addAdminMenu" },
+    { "hook": "filter:config.get", "method": "exposeClientConfig" },
+    { "hook": "filter:register.check", "method": "verifyRegister" },
+    { "hook": "filter:login.check", "method": "verifyLogin" }
+  ],
+  "scripts": [
+    "public/lib/main.js"
+  ],
+  "templates": "public/templates",
+  "languages": "languages",
+  "modules": {
+    "../admin/plugins/cloudflare-turnstile.js": "./public/lib/admin.js"
+  }
+}

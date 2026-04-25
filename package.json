@@ -1,0 +1,47 @@
+{
+  "name": "nodebb-plugin-cloudflare-turnstile",
+  "version": "0.1.0",
+  "description": "Cloudflare Turnstile CAPTCHA for NodeBB. Verifies registration and login forms server-side. Lightweight, dedicated, no Akismet/SFS/Honeypot baggage.",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqlik/nodebb-plugin-cloudflare-turnstile.git"
+  },
+  "keywords": [
+    "nodebb",
+    "nodebb-plugin",
+    "cloudflare",
+    "turnstile",
+    "captcha",
+    "anti-spam",
+    "registration",
+    "login"
+  ],
+  "author": "djayt <tomasz.sawko@sqlik.com> (https://www.npmjs.com/~djayt)",
+  "license": "MIT",
+  "homepage": "https://github.com/sqlik/nodebb-plugin-cloudflare-turnstile#readme",
+  "bugs": {
+    "url": "https://github.com/sqlik/nodebb-plugin-cloudflare-turnstile/issues"
+  },
+  "files": [
+    "lib/",
+    "public/lib/",
+    "public/templates/",
+    "languages/",
+    "library.js",
+    "plugin.json",
+    "LICENSE",
+    "README.md",
+    "!**/CLAUDE.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "nbbpm": {
+    "compatibility": "^4.0.0"
+  }
+}
