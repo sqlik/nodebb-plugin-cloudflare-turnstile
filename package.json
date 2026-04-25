@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-cloudflare-turnstile",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cloudflare Turnstile CAPTCHA for NodeBB. Verifies registration and login forms server-side. Lightweight, dedicated, no Akismet/SFS/Honeypot baggage.",
   "main": "library.js",
   "scripts": {
