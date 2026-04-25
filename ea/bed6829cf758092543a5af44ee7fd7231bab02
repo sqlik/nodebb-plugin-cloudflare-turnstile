@@ -1,0 +1,55 @@
+package.json
+  67d7d861ff6bdad4 1-47
+languages/pl/cloudflare-turnstile.json
+  67d7d861ff6bdad4 1-47
+lib/admin.js
+  67d7d861ff6bdad4 1-19
+lib/settings.js
+  67d7d861ff6bdad4 1-49
+.npmignore
+  67d7d861ff6bdad4 1-10
+public/lib/admin.js
+  67d7d861ff6bdad4 1-28
+public/lib/main.js
+  67d7d861ff6bdad4 1-105
+public/templates/admin/plugins/cloudflare-turnstile.tpl
+  67d7d861ff6bdad4 1-107
+.gitignore
+  67d7d861ff6bdad4 1-9
+LICENSE
+  67d7d861ff6bdad4 1-21
+lib/register.js
+  67d7d861ff6bdad4 1-33
+lib/turnstile.js
+  67d7d861ff6bdad4 1-64
+README.md
+  67d7d861ff6bdad4 1-91
+lib/login.js
+  67d7d861ff6bdad4 1-33
+plugin.json
+  67d7d861ff6bdad4 1-22
+languages/en-GB/cloudflare-turnstile.json
+  67d7d861ff6bdad4 1-47
+library.js
+  67d7d861ff6bdad4 1-63
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.4",
+  "base_commit_sha": "eabed6829cf758092543a5af44ee7fd7231bab02",
+  "prompts": {
+    "67d7d861ff6bdad4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "33c2ee2f-aeca-462a-8258-6dbbcf78ffa3",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "sqlik",
+      "messages": [],
+      "total_additions": 795,
+      "total_deletions": 0,
+      "accepted_lines": 795,
+      "overriden_lines": 0
+    }
+  }
+}
