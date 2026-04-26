@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-sqlik-FFDD00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/sqlik)
-[![npm version](https://img.shields.io/npm/v/nodebb-plugin-cloudflare-turnstile.svg)](https://www.npmjs.com/package/nodebb-plugin-cloudflare-turnstile)
-[![npm downloads](https://img.shields.io/npm/dm/nodebb-plugin-cloudflare-turnstile.svg)](https://www.npmjs.com/package/nodebb-plugin-cloudflare-turnstile)
 
 Lightweight, dedicated **Cloudflare Turnstile** plugin for NodeBB **v4.x**. Adds CAPTCHA verification to the registration form and (optionally) the login form. No reCAPTCHA, no hCaptcha, no Akismet, no StopForumSpam, no Honeypot — just Turnstile.
 
